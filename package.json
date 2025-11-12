@@ -9,5 +9,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulsam202020-boop/blogify-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahulsam202020-boop/blogify-api/issues"
+  },
+  "homepage": "https://github.com/rahulsam202020-boop/blogify-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
+"scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  }
